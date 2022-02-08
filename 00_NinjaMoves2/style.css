@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid red; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    /* position: relative;  */
+}
+
+/* #container {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    height: 500px;
+    width: 900px;
+    position: relative; 
+} */
+
+/* #ninja1 {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top: 200px; 
+    left: 400px; 
+} */
+
+.seaNinja {
+    background-color: aqua;
+    /* background-image: url('images/down1.png') */
+    /* background-image: "url(images/down1.png)"; */
+}
+
+.whyNot {
+    border: 3px dashed purple; 
+}

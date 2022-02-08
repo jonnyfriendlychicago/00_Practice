@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveIt2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    
+    <div id="header" style="height: 100px; width: 700px;position: relative;  background-color: rgb(104, 67, 32); border: 2px solid black; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1 style="color: white; ">Welcome to the ninja garden.</h1>
+        <p style="color: white; ">Use your up/down/left/right arrow keys to explore the grounds.  <br> When you feel prepared, walk to the "Enter the Dragon" door. </p>
+    </div>
+    <div id="container" style="height: 700px; width: 700px;position: relative;  background-color: lightgreen; border: 2px solid black; ">
+        
+
+        <div id="ninja1" style='width: 75px; height: 100px; position: absolute; top: 0px; left: 0px; display: flex; justify-content: center; align-items: center; background-color: transparent;'>
+            <img src="images/down1.png" alt="dojocat" id="ninja1-img" style="height: 95px; background-color: transparent"> 
+        </div>
+
+        <div id="ninjaSpaceRight" style='width: 0px; height: 100px; position: absolute; top: 0px; left: 0px; background-color: transparent;'></div>
+        <div id="ninjaSpaceLeft" style='width: 0px; height: 100px; position: absolute; top: 0px; left: 0px; background-color: transparent;'></div>
+        <div id="ninjaSpaceTop" style='width: 75px; height: 0px; position: absolute; top: 0px; left: 0px; background-color: transparent;'></div>
+        <div id="ninjaSpaceBottom" style='width: 75px; height: 0px; position: absolute; top: 0px; left: 0px; background-color: transparent;'></div>
+
+        <div id="enterTheDragon" style='width: 75px; height: 50px; position: absolute; top: 0px; left: 0px; background-color: black; display: flex;'>
+        <p
+        style="color: Green; font-size: 18px; text-align: center;"
+        >Enter the Dragon</p>
+        </div>
+        
+        <div id="exitTheDragon" style='width: 75px; height: 50px; position: absolute; bottom: 0px; right: 0px; background-color: black; display: flex;'>
+            <p
+            style="color: red; font-size: 18px; text-align: center;"
+            >Exit the Dragon</p>
+            </div>
+    
+        <!-- end container -->
+    </div>
+        <!-- below is first major attempt for MoveIt2, which I couldn't get to work.  -->
+<!--         
+        <div id="ninja1" 
+        style='width: 100px; height: 100px; position: absolute; top: 0px; left: 0px; 
+        background-image: url(images/down1.png); 
+        background-repeat: no-repeat;
+        background-position: center;
+        '
+        >
+        </div> -->
+
+
+
+
+        <!-- below is orig from moveIt1 -->
+        <!--         
+        <img src="images/down1.png" alt="dojocat" id="ninja1" 
+        style="width: 100px; position: absolute; top: 0px; left: 0px; background-color: aqua;"
+        > -->
+
+   
+
+    
+</body>
+</html>
